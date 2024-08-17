@@ -7,10 +7,10 @@ const Data = () => {
             Pratham Shrivastav
         </h1>
         <h3 className="home__subtitle">
-            Web Developer + Data Analyst
+            DevOps Engineer | Frontend Developer | Data Analyst
         </h3>
         <p className="home__description">
-            As a web developer and data analyst, feel free to give me a try! ^_^
+            A DevOps Engineer, Frontend Developer and Data Analyst who loves to code and explore new technologies.
         </p>
 
         <a href="#contact" className="button button--flex">

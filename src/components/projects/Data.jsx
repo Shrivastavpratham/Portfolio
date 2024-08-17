@@ -3,6 +3,7 @@ import Project2 from "../../assets/project2.webp";
 import Project3 from "../../assets/project3.webp";
 import Project4 from "../../assets/project4.webp";
 import Project5 from "../../assets/project5.webp";
+import Project6 from "../../assets/project6.webp";
 
 
 export const projectsData = [
@@ -41,6 +42,13 @@ export const projectsData = [
         category: "ML",
         site:"https://github.com/Shrivastavpratham/Traffic_Light_Colour_Detection_DRDO",
     },
+    {
+        id: 6,
+        image: Project6,
+        title: "AWS CICD Pipeline",
+        category: "DevOps",
+        site:"https://github.com/Shrivastavpratham/Traffic_Light_Colour_Detection_DRDO",
+    },
 ];
 
 export const projectsNav = [
@@ -49,6 +57,9 @@ export const projectsNav = [
     },
     {
         name: "Web Development",
+    },
+    {
+        name: "DevOps",
     },
     {
         name: "Data Analysis",

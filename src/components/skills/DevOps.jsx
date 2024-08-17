@@ -1,30 +1,30 @@
 import React from "react";
 import { HiCheckBadge } from "react-icons/hi2";
 
-const Dataanalysis = () => {
+const Devops = () => {
     return(
         <div className="skills__content">
-        <h3 className="skills__title">Data Analyst</h3>
+        <h3 className="skills__title">DevOps</h3>
         <div className="skills__box">
             <div className="skills__group">
                 <div className="skills__data">
                     <HiCheckBadge />
                     <div>
-                        <h3 className="skills__name">Python</h3>
-                        <span className="skills__level">Basic</span>
-                    </div>
-                </div>
-                <div className="skills__data">
-                    <HiCheckBadge />
-                    <div>
-                        <h3 className="skills__name">Excel</h3>
+                        <h3 className="skills__name">AWS</h3>
                         <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
                 <div className="skills__data">
                     <HiCheckBadge />
                     <div>
-                        <h3 className="skills__name">MySQL</h3>
+                        <h3 className="skills__name">Dockers/Kubernetes</h3>
+                        <span className="skills__level">Intermediate</span>
+                    </div>
+                </div>
+                <div className="skills__data">
+                    <HiCheckBadge />
+                    <div>
+                        <h3 className="skills__name">Jenkins</h3>
                         <span className="skills__level">Basic</span>
                     </div>
                 </div>
@@ -33,28 +33,29 @@ const Dataanalysis = () => {
                 <div className="skills__data">
                     <HiCheckBadge />
                     <div>
-                        <h3 className="skills__name">PowerBI</h3>
+                        <h3 className="skills__name">Terraform</h3>
                         <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
                 <div className="skills__data">
                     <HiCheckBadge />    
                     <div>
-                        <h3 className="skills__name">Cleaning/Prep</h3>
+                        <h3 className="skills__name">Ansible</h3>
                         <span className="skills__level">Basic</span>
                     </div>
                 </div>
                 <div className="skills__data">
                     <HiCheckBadge />
                     <div>
-                        <h3 className="skills__name">Git</h3>
+                        <h3 className="skills__name">Monitoring</h3>
                         <span className="skills__level">Basic</span>
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>
     );
 }
 
-export default Dataanalysis;
+export default Devops;
