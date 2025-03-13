@@ -3,7 +3,9 @@ import Project2 from "../../assets/project2.webp";
 import Project3 from "../../assets/project3.webp";
 import Project4 from "../../assets/project4.webp";
 import Project5 from "../../assets/project5.webp";
-import Project6 from "../../assets/project6.webp";
+import Project6 from "../../assets/project6.png";
+import Project7 from "../../assets/project7.jpeg";
+import Project8 from "../../assets/project8.png";
 
 
 export const projectsData = [
@@ -45,9 +47,23 @@ export const projectsData = [
     {
         id: 6,
         image: Project6,
-        title: "AWS CICD Pipeline",
+        title: "AWS Infrastructure Automation with Terraform",
         category: "DevOps",
-        site:"https://github.com/Shrivastavpratham/Traffic_Light_Colour_Detection_DRDO",
+        site:"https://github.com/Shrivastavpratham/Terraform_projects/tree/main/Terraform%20project%201",
+    },
+    {
+        id: 7,
+        image: Project7,
+        title: "Containerization and Deployment of MERN Stack",
+        category: "DevOps",
+        site:"https://github.com/Shrivastavpratham/Docker_projects/tree/main/Dockerize%20a%20MERN%20App",
+    },
+    {
+        id: 8,
+        image: Project8,
+        title: "AWS Cost Optimization",
+        category: "DevOps",
+        site:"https://github.com/Shrivastavpratham/AWS-Cost-Optimization",
     },
 ];
 
