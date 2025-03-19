@@ -5,7 +5,7 @@ import Project4 from "../../assets/project4.webp";
 import Project5 from "../../assets/project5.webp";
 import Project6 from "../../assets/project6.png";
 import Project7 from "../../assets/project7.jpeg";
-import Project8 from "../../assets/project8.png";
+import Project8 from "../../assets/project8.jpeg";
 
 
 export const projectsData = [
@@ -61,9 +61,9 @@ export const projectsData = [
     {
         id: 8,
         image: Project8,
-        title: "AWS Cost Optimization",
+        title: "AWS CICD Pipeline",
         category: "DevOps",
-        site:"https://github.com/Shrivastavpratham/AWS-Cost-Optimization",
+        site:"",
     },
 ];
 
